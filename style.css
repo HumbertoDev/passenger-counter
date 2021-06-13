@@ -3,9 +3,8 @@ body {
   height:1000px;
   font-family:DM sans, Roboto, Verdana;
   display:flex;
-  flex-direction:column;
+  align-items:center;
   justify-content:center;
-  padding:100px;
 }
 
 h1 {
@@ -13,8 +12,6 @@ h1 {
   font-size:48px;
   letter-spacing:2px;
   text-shadow:5px 5px 15px rgba(238,238,238,0.8);
-  text-align:center;
-
 }
 
 
@@ -22,7 +19,16 @@ h2{
   color:#6b6ac9;
   font-size:36px;
   font-weight:600;
-  text-align:center;
+}
+
+button {
+  width:350px;
+  border:none;
+  padding: 10px 24px 10px 24px;
+  border-radius:6px;
+  font-size:30px;
+  font-family: 'Black Ops One', cursive;
+  letter-spacing:3.5px;
 }
 
 .count-es{
@@ -31,12 +37,14 @@ h2{
   border-radius:20px;
 }
 
-button {
+.container{
+  width:80%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:left;
+}
+
+.header.counter .button {
   
-  border:none;
-  padding: 10px 24px 10px 24px;
-  border-radius:6px;
-  font-size:30px;
-  font-family: 'Black Ops One', cursive;
-  letter-spacing:3.5px;
 }
