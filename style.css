@@ -10,7 +10,8 @@ body {
 h1 {
   color:white;
   font-size:48px;
-  letter-spacing:2px;
+  letter-spacing:3.5px;
+  text-align:center;
   text-shadow:5px 5px 15px rgba(238,238,238,0.8);
 }
 
@@ -18,17 +19,26 @@ h1 {
 h2{
   color:#6b6ac9;
   font-size:36px;
-  font-weight:600;
+  font-weight:700;
+  letter-spacing:3.5px;
 }
 
 button {
   width:350px;
   border:none;
   padding: 10px 24px 10px 24px;
-  border-radius:6px;
+  border-radius:10px;
   font-size:30px;
   font-family: 'Black Ops One', cursive;
   letter-spacing:3.5px;
+  background-color:rgba(255,118,152,1);
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 .count-es{
@@ -42,9 +52,17 @@ button {
   display:flex;
   flex-direction:column;
   justify-content:center;
-  align-items:left;
+  align-items:center;
 }
 
-.header.counter .button {
-  
+.counter {
+  margin: 20px 0 20px 0;  
+}
+
+.button {
+  margin: 20px 0 20px 0;
+}
+
+.passengers {
+  color:#008f7a;
 }

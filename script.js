@@ -3,7 +3,7 @@ let count = 0;
 
 function increment(){
   count += 1
-  countEl.innerText = count;
+  countEl.innerHTML = count + "<span class='passengers'> Passegers 🧳</span>";
   console.log('Clicked');
 }
 
