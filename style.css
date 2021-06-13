@@ -71,3 +71,9 @@ button {
 .passengers {
   color:#008f7a;
 }
+
+@@media screen and (max-width:800px){
+  body {
+    blackground-color:black;
+  }
+} 
