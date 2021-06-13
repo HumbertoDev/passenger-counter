@@ -25,13 +25,16 @@ h2{
   font-size:36px;
   font-weight:700;
   letter-spacing:3.5px;
+  text-align:center;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 button {
   width:350px;
   border:none;
   padding: 10px 24px 10px 24px;
-  border-radius:4px;
+  border-radius:16px;
   font-size:30px;
   font-family: 'Poppins';
   font-weight:800;
@@ -65,15 +68,13 @@ button {
 }
 
 .button {
+  width:90%;
   margin: 20px 0 20px 0;
+  display:flex;
+  justify-content:center;
 }
 
 .passengers {
   color:#008f7a;
 }
 
-@@media screen and (max-width:800px){
-  body {
-    blackground-color:black;
-  }
-} 
